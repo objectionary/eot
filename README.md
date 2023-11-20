@@ -1,9 +1,8 @@
-EO Optimizations Testing Framework.
-
 In you unit test, use it like this:
 
 ```java
 import org.eolang.eot.Script;
+
 @Test
 void optimizesCorrectly() {
   assertThat(
